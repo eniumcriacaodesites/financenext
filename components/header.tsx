@@ -1,5 +1,7 @@
+import { UserButton } from "@clerk/nextjs"
 import { HeaderLogo } from "@/components/header-logo"
 import { Navigation } from "@/components/navigation"
+
 
 export const Header = () => {
    return (
@@ -10,6 +12,7 @@ export const Header = () => {
                   <HeaderLogo />
                   <Navigation />
                </div>
+               <UserButton afterSignOutUrl="/" />
             </div>
          </div>
       </header>
