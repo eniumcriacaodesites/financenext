@@ -24,9 +24,9 @@ export const useCreateAccount = () => {
             queryClient.invalidateQueries({ queryKey: ["accounts"]})
          },
          onError: () => {
-          toast.error("Algo de inesperado aconteceu e a conta não foi criada!")
+            toast.error("Algo de inesperado aconteceu e a conta não foi criada!")
          }
       })
-   
+
    return mutation;
 }

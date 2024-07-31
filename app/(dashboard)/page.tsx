@@ -8,7 +8,7 @@ export default function Home() {
   const { onOpen } = useNewAccount();
 
   return (
-    <div>
+    <div className="max-w-screen-2xl mx-auto">
       <Button onClick={onOpen}>
         Criar conta
       </Button>

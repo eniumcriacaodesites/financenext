@@ -1,5 +1,5 @@
 import { z } from "zod"
-import { Trash, Save, CirclePlus } from "lucide-react"
+import { Trash, Save, Plus } from "lucide-react"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 
@@ -85,7 +85,7 @@ export const AccountForm = ({
                   disabled={disabled}
                   onClick={handleDelete}
                >
-                  <Trash className="size-4" />
+                  <Trash className="size-4 mr-2" />
                   Remover conta
                </Button>
                )}
@@ -95,11 +95,11 @@ export const AccountForm = ({
                >
                    {id ? (
                         <>
-                           <Save className="size-4" /> Atualizar conta
+                           <Save className="size-4 mr-2" /> Atualizar conta
                         </>
                         ) : (
                            <>
-                              <CirclePlus className="size-4" /> Cadastrar conta
+                              <Plus className="size-4 mr-2" /> Cadastrar conta
                            </>
                         )}
                </Button>
