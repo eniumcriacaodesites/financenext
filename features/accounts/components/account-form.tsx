@@ -85,8 +85,7 @@ export const AccountForm = ({
                   disabled={disabled}
                   onClick={handleDelete}
                >
-                  <Trash className="size-4 mr-2" />
-                  Remover conta
+                  <Trash className="size-4" />
                </Button>
                )}
                <Button

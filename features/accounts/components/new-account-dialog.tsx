@@ -40,7 +40,7 @@ export const NewAccountDialog = () => {
       <DialogHeader>
          <DialogTitle>Criar Conta</DialogTitle>
          <DialogDescription>
-            É bem simples e rápido. Comece a organizar sua vida financeira.
+            É bem simples e rápido.
          </DialogDescription>
       </DialogHeader>
       <div className="grid gap-4 py-4">

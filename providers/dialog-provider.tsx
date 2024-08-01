@@ -3,7 +3,7 @@
 import { useMountedState } from "react-use";
 
 import { NewAccountDialog } from "@/features/accounts/components/new-account-dialog";
-
+import { EditAccountDialog } from "@/features/accounts/components/edit-account-dialog";
 
 
 export const DialogProvider = () => {
@@ -15,6 +15,7 @@ export const DialogProvider = () => {
    return (
       <>
          <NewAccountDialog />
+         <EditAccountDialog />
       </>
    );
 };
