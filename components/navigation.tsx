@@ -11,30 +11,26 @@ import {
    SheetTrigger
 } from "@/components/ui/sheet"
 
-
-
-
-
 const routes = [
    {
       href: "/",
-      label:"Overview"
+      label:"Principal"
    },
    {
       href: "/transactions",
-      label:"Transactions"
+      label:"Movimentações"
    },
    {
       href:"/accounts",
-      label:"Accounts",
+      label:"Contas",
    },
    {
       href:"/categories",
-      label:"Categories",
+      label:"Categorias",
    },
    {
       href:"/settings",
-      label:"Settings",
+      label:"Configurações",
    }
 ]
 

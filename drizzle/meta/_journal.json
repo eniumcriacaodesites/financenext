@@ -15,6 +15,13 @@
       "when": 1722258900648,
       "tag": "0001_sour_grandmaster",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1722520363695,
+      "tag": "0002_woozy_angel",
+      "breakpoints": true
     }
   ]
 }
